@@ -86,11 +86,9 @@ a {
 .section-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
     padding-left: 80px;
     margin-bottom: 100px;
 }
-
 
 .quick-list {
     margin-top: 280px;
