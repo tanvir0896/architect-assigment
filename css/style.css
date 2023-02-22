@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+}
+
+/* header and nav styles */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-top: 50px;
+    margin-left: 228px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.nav-item ul {
+    margin-top: 63px;
+    margin-right: 220px;
+    display: flex;
+}
+
+.nav-item ul>li {
+    display: flex;
+    text-decoration: none;
+}
+
+a {
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.web-title h1 {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    color: #131313;
+}
+
+.web-title-desc {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: #727272;
+}
+
+.btn-primary {
+    background: #FF900E;
+    margin-left: 710px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.btn-primary p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.header-img {
+    margin-bottom: 45px;
+}
+
+.header-img img {
+    margin-right: 240px;
+    margin-left: 100px;
+    width: 1440px;
+    height: 700px;
+}
+
+/* main part styles */
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-left: 80px;
+    margin-bottom: 100px;
+}
+
+
+.quick-list {
+    margin-top: 280px;
+    margin-left: 50px;
+}
+
+.first-w-clor {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.second-w-color {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.third-w-color {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.btn-explore {
+    background: #FF900E;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.btn-explore p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* second section styles */
+.second-section {
+    display: flex;
+    margin-left: 120px;
+    gap: 24px;
+}
+
+.description-part h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.description-part h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.d-one h1 {
+    margin-bottom: 30px;
+}
+
+.d-one p {
+    margin-bottom: 80px;
+}
+
+.d-d h2 {
+    margin-bottom: 20px;
+}
+
+.d-d p {
+    margin-bottom: 100px;
+}
+
+.btn-year {
+    background: #FF900E;
+    padding: 15px;
+    margin-bottom: 100px;
+
+}
+
+.ten-color {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.ex-color {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* somefacts styles */
+.facts-section {
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.facts-section h1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+
+}
+
+/* logo section */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.logo-c img {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.logo-c {
+    margin-left: 125px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241px;
+    height: 241px;
+}
+
+.logo-c p {
+    text-align: center;
+}
+
+.logo-d {
+    margin-left: 125px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241px;
+    height: 241px;
+
+}
+
+.logo-d p {
+    text-align: center;
+}
+
+.logo-d img {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.logo-e {
+    margin-left: 125px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241px;
+    height: 241px;
+}
+
+.logo-e p {
+    text-align: center;
+}
+
+.logo-e img {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+/* sponsor styles */
+.sponsor {
+    margin-bottom: 50px;
+}
+
+.sponsor h1 {
+    color: #131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsor p {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Sponspors-logo {
+    display: flex;
+}
+
+.sponsor {
+    padding-left: 155.7px;
+}
+
+/* footer styles */
+.footer {
+    background: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 39px;
+}
